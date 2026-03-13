@@ -3,7 +3,7 @@
 #CMD ["python3", "-m", "http.server", "8080"]
 
 
-FROM python:3.12-slim
+FROM python:3.11-slim
 
 # L2 — system package index (large, cache-friendly base)
 RUN apt-get update
