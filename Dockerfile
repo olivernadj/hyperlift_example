@@ -21,7 +21,7 @@ RUN pip install --no-cache-dir flask requests
 
 # L6 — copy app code + set version env var (changes often → intentionally late)
 COPY server.py .
-ENV APP_VERSION=1.0.0
+ENV APP_VERSION=1.0.1
 
 # L7 — document the port
 EXPOSE 8080
